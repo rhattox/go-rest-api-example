@@ -1,0 +1,9 @@
+version: '3.9'
+services:
+  app:
+    image: go-rest-api-example:0.0.1
+    tty: true
+    build:
+      context: .
+    ports:
+      - 8080:8080
